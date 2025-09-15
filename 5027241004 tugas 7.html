@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Farming Dashboard</title>
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f5f7fa;
+    }
+    .card {
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .card h5 {
+      font-size: 14px;
+      color: #555;
+    }
+    .card .value {
+      font-size: 22px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-4">
+    <h2 class="mb-4">Smart Farming</h2>
+    <div class="row g-3">
+ 
+      <div class="col-md-3">
+        <div class="card border-primary p-3">
+          <h5>KELEMBABAN (RH)</h5>
+          <div class="value text-primary">54 %</div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card border-dark p-3">
+          <h5>TDS</h5>
+          <div class="value">400 ppm</div>
+        </div>
+      </div>
+
+     <div class="col-md-3">
+        <div class="card border-info p-3">
+          <h5>KEKERUHAN (TURBID)</h5>
+          <div class="value text-info">18 NTU</div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card border-warning p-3">
+          <h5>TEMPERATUR AIR (WTEMP)</h5>
+          <div class="value text-warning">25 C</div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card border-danger p-3">
+          <h5>ALIRAN AIR (WFLOW)</h5>
+          <div class="value text-danger">34</div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card border-primary p-3">
+          <h5>OKSIGEN TERLARUT (DISS.OXYGEN)</h5>
+          <div class="value text-primary">10 ppm</div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card border-success p-3">
+          <h5>INTENSITAS CAHAYA (LUX)</h5>
+          <div class="value text-success">100 Lux</div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card border-info p-3">
+          <h5>TEMPERATUR UDARA (AMTEMP)</h5>
+          <div class="value text-info">34 C</div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card border-warning p-3">
+          <h5>EC</h5>
+          <div class="value text-warning">2</div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card border-danger p-3">
+          <h5>PH</h5>
+          <div class="value text-danger">7.1</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
